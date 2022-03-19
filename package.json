@@ -1,0 +1,60 @@
+{
+	"name": "@admin.bio/archetype-theme",
+	"version": "0.1.0",
+	"description": "",
+	"author": "Cascadia Bureau of Public Affairs Office of Information Technology",
+	"license": "GPL-2.0-or-later",
+	"keywords": [
+		"wordpress"
+	],
+	"homepage": "https://github.com/admin-bio/ArchetypeTheme/",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/admin-bio/ArchetypeTheme.git"
+	},
+	"bugs": {
+		"url": "https://github.com/admin-bio/ArchetypeTheme/issues"
+	},
+	"devDependencies": {
+		"@types/gulp": "^4.0.9",
+		"@types/gulp-autoprefixer": "^0.0.33",
+		"@types/gulp-minify": "^3.1.1",
+		"@types/gulp-sass": "^5.0.0",
+		"@types/gulp-sourcemaps": "^0.0.35",
+		"@types/gulp-typescript": "^2.13.0",
+		"@types/sass": "^1.43.1",
+		"@wordpress/scripts": "^22.2.1",
+		"eslint": "^8.11.0",
+		"gulp": "^4.0.2",
+		"gulp-autoprefixer": "^8.0.0",
+		"gulp-minify": "^3.1.0",
+		"gulp-run": "^1.7.1",
+		"gulp-sass": "^5.1.0",
+		"gulp-sourcemaps": "^3.0.0",
+		"gulp-typescript": "^6.0.0-alpha.1",
+		"prettier": "^2.6.0",
+		"sass": "^1.49.9",
+		"sassdoc": "^2.7.3",
+		"stylelint": "^14.6.0",
+		"ts-node": "^10.7.0",
+		"typescript": "^4.6.2"
+	},
+	"scripts": {
+		"build": "gulp",
+		"check-engines": "wp-scripts check-engines",
+		"check-licenses": "wp-scripts check-licenses",
+		"clean": "rm -rf build",
+		"format": "wp-scripts format",
+		"lint:style": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"lint:md:docs": "wp-scripts lint-md-docs",
+		"lint:pkg-json": "wp-scripts lint-pkg-json",
+		"lint": "gulp lint",
+		"packages-update": "wp-scripts packages-update",
+		"plugin-zip": "wp-scripts plugin-zip",
+		"prebuild": "gulp prebuild",
+		"start": "gulp watch",
+		"test:e2e": "wp-scripts test-e2e",
+		"test:unit": "wp-scripts test-unit-js"
+	}
+}

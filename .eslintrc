@@ -1,0 +1,12 @@
+{
+	"extends": ["plugin:@wordpress/eslint-plugin/recommended"],
+	"ignorePatterns": ["node_modules"],
+	"overrides": [
+		{
+			"files": "gulpfile.ts",
+			"rules": {
+				"no-console": "off"
+			}
+		}
+	]
+}
